@@ -28,9 +28,10 @@ ID3v2 MP3 Metadata Structure
 Command-Line Arguments
 
 **Run commands**
+give command gcc *.c
 
 To view tags:
 ./a.out -v sample.mp3
 
 To edit tag (example: title):
-./a.out -e title "New Song Title" sample.mp3
+./a.out -e -t "New Song Title" sample.mp3
