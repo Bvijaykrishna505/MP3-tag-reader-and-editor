@@ -30,7 +30,7 @@ Command-Line Arguments
 **Run commands**
 
 To view tags:
-./mp3tag -v sample.mp3
+./a.out -v sample.mp3
 
 To edit tag (example: title):
-./mp3tag -e title "New Song Title" sample.mp3
+./a.out -e title "New Song Title" sample.mp3
